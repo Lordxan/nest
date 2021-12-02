@@ -1,7 +1,7 @@
 import { Type } from '@nestjs/common';
 import { isString, isUndefined } from '@nestjs/common/utils/shared.utils';
-import * as net from 'net';
 import { Server as NetSocket, Socket } from 'net';
+import net, { Server as NetSocket, Socket } from 'net';
 import {
   CLOSE_EVENT,
   EADDRINUSE,
