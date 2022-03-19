@@ -2,9 +2,9 @@ import { defineConfig } from 'tsup';
 
 export default defineConfig({
   splitting: false,
-  sourcemap: true,
-  outDir: 'node_modules/@nestjs',
-  clean: true,
+  sourcemap: false,
+  outDir: 'packages',
+  clean: false,
   entryPoints: [
     'packages/common/index.ts',
     'packages/core/index.ts',

@@ -9,7 +9,7 @@
     "url": "https://github.com/nestjs/nest"
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "http://192.168.0.80:8081/repository/npm-private/"
   },
   "dependencies": {
     "iterare": "1.2.1",
