@@ -8,7 +8,7 @@ import {
 } from '@nestjs/websockets/constants';
 import { MessageMappingProperties } from '@nestjs/websockets/gateway-metadata-explorer';
 import http from 'http';
-import { fromEvent, Observable } from 'rxjs';
+import { EMPTY, fromEvent, Observable } from 'rxjs';
 import { filter, first, mergeMap, share, takeUntil } from 'rxjs/operators';
 import { URL } from 'url';
 
